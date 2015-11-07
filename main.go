@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	cmd := cli.App("ipcat", "Retrieve and save IPFS objects.")
+	cmd := cli.App("ipcat", "Retrieve IPFS object data and output it to stdout.")
 	cmd.Spec = "IPFS_PATH"
 
 	hash := cmd.String(cli.StringArg{
