@@ -3,7 +3,7 @@
 ```
 $ go get github.com/noffle/ipcat
 
-$ ipcat QmVVjWrps58cFS1hSvCdAxmS4wggKfRGbDzJway6QCxR4U
+$ ipcat QmQLBvJ3ur7U7mzbYDLid7WkaciY84SLpPYpGPHhDNps2Y
 ```
 
 # Usage

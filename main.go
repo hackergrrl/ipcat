@@ -35,7 +35,7 @@ func cat(path string) error {
 		os.Exit(1)
 	}
 
-	reader, err := shell.Cat("QmVVjWrps58cFS1hSvCdAxmS4wggKfRGbDzJway6QCxR4U")
+	reader, err := shell.Cat(path)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "error: %s\n", err)
 		os.Exit(1)
