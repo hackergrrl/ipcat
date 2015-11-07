@@ -1,3 +1,7 @@
+# Dependencies
+
+None! `ipcat` doesn't require you to have a running local IPFS daemon.
+
 # Installation
 
 ```
