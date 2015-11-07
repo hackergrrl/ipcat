@@ -6,7 +6,7 @@ import (
 	"os"
 
 	cli "github.com/jawher/mow.cli"
-	shell "github.com/noffle/easy-ipfs-shell/shell"
+	shell "github.com/noffle/easy-ipfs-shell"
 )
 
 func main() {
@@ -29,7 +29,7 @@ func main() {
 }
 
 func cat(path string) error {
-	shell, err := shell.New()
+	shell, err := shell.NewShell()
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "error: %s\n", err)
 		os.Exit(1)
