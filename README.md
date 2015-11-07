@@ -4,6 +4,7 @@
 $ go get github.com/noffle/ipcat
 
 $ ipcat QmQLBvJ3ur7U7mzbYDLid7WkaciY84SLpPYpGPHhDNps2Y
+"The man who makes no mistakes does not make anything." - Edward John Phelps
 ```
 
 # Usage
